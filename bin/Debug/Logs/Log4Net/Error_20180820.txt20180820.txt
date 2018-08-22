@@ -1,0 +1,46 @@
+
+Time: 2018-08-20 20:00:37,081 - Program.cs  
+ ****************************异常文本****************************
+【出现时间】：2018/8/20 20:00:37
+【异常类型】：NullReferenceException
+【异常信息】：未将对象引用设置到对象的实例。
+【堆栈调用】：   在 DXA_HSJX.FormTest.button1_Click(Object sender, EventArgs e) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\FormTest.cs:行号 38
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+
+Time: 2018-08-20 22:13:18,190 - Program.cs  
+ ****************************异常文本****************************
+【出现时间】：2018/8/20 22:13:18
+【异常类型】：SocketException
+【异常信息】：通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+【堆栈调用】：   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.UdpClient..ctor(IPEndPoint localEP)
+   在 DXA_HSJX.UdpServer.StartReceiveMsg() 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 95
+   在 DXA_HSJX.FormMain.FormMain_Load(Object sender, EventArgs e) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\FormMain.cs:行号 55
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 DevExpress.XtraEditors.XtraForm.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 DevExpress.XtraEditors.XtraForm.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+

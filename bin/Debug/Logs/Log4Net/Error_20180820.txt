@@ -1,0 +1,271 @@
+
+Time: 2018-08-20 00:50:42,602 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Unterminated string. Expected delimiter: ". Path 'DeductionRule', line 1, position 3358.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringIntoBuffer(Char quote)
+   在 Newtonsoft.Json.JsonTextReader.ParseProperty()
+   在 Newtonsoft.Json.JsonTextReader.ParseObject()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadAndAssert()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 00:53:53,738 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: ". Path '', line 1, position 3517.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 00:53:53,754 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: ". Path '', line 1, position 3517.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 00:53:53,791 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: ". Path '', line 1, position 3517.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 00:59:22,334 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: u. Path '', line 1, position 3300.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 00:59:22,334 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: u. Path '', line 1, position 3300.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 00:59:58,304 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: }. Path '', line 1, position 3353.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 19:59:49,811 - Program.cs  
+ ****************************异常文本****************************
+【出现时间】：2018/8/20 19:59:49
+【异常类型】：COMException
+【异常信息】：异常来自 HRESULT:0x800A1420
+【堆栈调用】：   在 Microsoft.Office.Interop.Word.InlineShapes.AddPicture(String FileName, Object& LinkToFile, Object& SaveWithDocument, Object& Range)
+   在 DXA_HSJX.WriteIntoWord.WritePicIntoDocument(String BookmarkName, String picName) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\WriteIntoWord.cs:行号 64
+   在 DXA_HSJX.FormTest.button2_Click(Object sender, EventArgs e) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\FormTest.cs:行号 132
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+
+Time: 2018-08-20 22:20:56,571 - Program.cs  
+ ****************************异常文本****************************
+【出现时间】：2018/8/20 22:20:56
+【异常类型】：SocketException
+【异常信息】：通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+【堆栈调用】：   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.UdpClient..ctor(IPEndPoint localEP)
+   在 DXA_HSJX.UdpServer.StartReceiveMsg() 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 95
+   在 DXA_HSJX.FormMain.FormMain_Load(Object sender, EventArgs e) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\FormMain.cs:行号 55
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 DevExpress.XtraEditors.XtraForm.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 DevExpress.XtraEditors.XtraForm.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+
+Time: 2018-08-20 22:27:19,931 - Program.cs  
+ ****************************异常文本****************************
+【出现时间】：2018/8/20 22:27:19
+【异常类型】：SocketException
+【异常信息】：通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+【堆栈调用】：   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 System.Net.Sockets.UdpClient..ctor(IPEndPoint localEP)
+   在 DXA_HSJX.UdpServer.StartReceiveMsg() 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 95
+   在 DXA_HSJX.FormMain.FormMain_Load(Object sender, EventArgs e) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\FormMain.cs:行号 55
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 DevExpress.XtraEditors.XtraForm.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 DevExpress.XtraEditors.XtraForm.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+
+Time: 2018-08-20 22:50:39,238 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: e. Path '', line 1, position 3351.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 22:50:39,280 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: e. Path '', line 1, position 3351.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 22:50:39,243 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: n. Path '', line 1, position 3346.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 22:50:39,245 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: e. Path '', line 1, position 3351.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 22:50:39,309 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: n. Path '', line 1, position 3346.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 22:50:39,310 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: n. Path '', line 1, position 3346.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 22:50:39,289 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: n. Path '', line 1, position 3346.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 22:50:39,280 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: n. Path '', line 1, position 3346.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 22:50:39,309 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Unterminated string. Expected delimiter: ". Path 'CarSignalInfo', line 1, position 3343.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringIntoBuffer(Char quote)
+   在 Newtonsoft.Json.JsonTextReader.ParseProperty()
+   在 Newtonsoft.Json.JsonTextReader.ParseObject()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 22:50:39,316 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: n. Path '', line 1, position 3346.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
+
+Time: 2018-08-20 22:50:39,317 - DXA_HSJX.UdpServer  
+ Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: n. Path '', line 1, position 3346.
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DXA_HSJX.UdpServer.ReceiveMessage(Object a) 位置 E:\HSJXProject\DXA_HSJX\DXA_HSJX\UdpServer.cs:行号 114
