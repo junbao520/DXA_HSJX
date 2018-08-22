@@ -101,6 +101,7 @@ namespace DXA_HSJX
       
         private void button2_Click(object sender, EventArgs e)
         {
+            //ceshi 
             var picpath = System.IO.Directory.GetCurrentDirectory() + "\\" + "capture.jpg";
             var IdCardPath = System.IO.Directory.GetCurrentDirectory() + "\\" + "zp.bmp";
             PrintScoreModel model = new PrintScoreModel();
